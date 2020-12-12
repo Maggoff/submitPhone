@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+section{
+  text-align: center;
+  transform: scale(2);
+}
+
+h4{
+  margin-bottom: 5px;
+}
+
+h5{
+  margin-bottom: 5px;
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+button{
+  width: 50px;
+  cursor: pointer;
+}
+
+button.not{
+  cursor: auto;
+}
+
+button.submit{
+  width: auto;
+  display: none;
+  margin: 5px auto;
+}
+
+button.submit.show{
+  display: block;
+}
